@@ -14,6 +14,10 @@ body {
   padding-right: 5%;
 }
 
+.in-bl {
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -24,18 +28,17 @@ a {
 /* top-top-bar */
 .top-top-bar {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: solid 1px #33475b;
   /* debug */
   margin-bottom: solid 1px #C4C4C4;
   position: relative;
   color: #33475b;
+  font-size: 12px;
 }
 
-.top-top-bar > div {
-  display: inline-block;
-}
+
 
 span > span {
   margin-left: 3px;
@@ -75,4 +78,28 @@ span > span {
 #login {
   color: #ff7a59;
   background-color: white;
+}
+
+/* nav bar */
+nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* debug */
+  position: relative;
+  color: #33475b;
+}
+
+#header-nav-bar {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  margin-right: 5%;
+  font-size: 12px;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10px;
 }
