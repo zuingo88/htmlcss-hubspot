@@ -144,8 +144,8 @@ button.big {
   width: 100%;
   height: 70px;
   background-color: #7EEFD3;
-  border-top: solid 2px #003A2C;
-  border-bottom: solid 2px #003A2C;
+  border-top: solid 3px #0A4738;
+  border-bottom: solid 3px #0A4738;
   position: absolute;
   bottom: 0;
 }
