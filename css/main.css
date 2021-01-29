@@ -46,15 +46,20 @@ button {
 
 button.big {
   padding: 10px 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2, h3 {
   text-transform: capitalize;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .p-normal {
   font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .p-small {
@@ -63,9 +68,17 @@ h2, h3 {
 
 .small-img {
   width: 100px;
-  height: 100px;
+  height: 75px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.main-list {
+  list-style-type: none;
+}
+
+li {
+  text-transform: capitalize;
 }
 
 /* HEADER */
@@ -83,9 +96,9 @@ h2, h3 {
   background-color: #f5f8fa;
 }
 
-span > span {
-  margin-left: 3px;
-  margin-right: 3px;
+i {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #lingua > span:first-child {
@@ -94,7 +107,7 @@ span > span {
 }
 
 #lingua >span:last-child {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 #log {
@@ -138,6 +151,10 @@ nav {
 
 nav li {
   display: inline-block;
+  margin-left: 10px;
+}
+
+nav i {
   margin-left: 10px;
 }
 
@@ -187,7 +204,7 @@ nav li {
 
 #presentazione-image {
   width: 150px;
-  height: 150px;
+  height: 110px;
   margin: auto;
   background-image: url(../img/cube.png);
   background-size: contain;
@@ -205,16 +222,54 @@ nav li {
   /* debug */
   background-color: white;
   border-radius: 5px;
-  -moz-box-shadow: 0 0 25px #333333;
-  -webkit-box-shadow:0 0 25px #333333;
-  box-shadow: 0 0 25px #333333;
+  -moz-box-shadow: 0 0 5px #8D8D8D;
+  -webkit-box-shadow: 0 0 5px #8D8D8D;
+  box-shadow: 0 0 5px #8D8D8D;
+  text-align: center;
 }
 
+/* blocco orizzontale */
 .blocco-orizzontale {
   width: 100%;
   /* debug */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.orizzontale-sx {
+  width: 30%;
+  float: left;
+}
+
+.orizzontale-dx {
+  text-align: left;
 }
 
 .blocco-orizzontale .small-img {
   background-image: url(../img/book.svg);
+  margin: 20px auto auto;
+}
+
+#p-orizzonatale {
+  width: 75%;
+}
+
+.popular-feature {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.line {
+  position: relative;
+  bottom: 5px;
+  margin-left: 40px;
+}
+
+.orizzontale-dx li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.spiegazione i {
+  color: #ff7a59;
 }
