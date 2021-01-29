@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  min-width: 1000px;
+  min-width: 1025px;
   max-width: 1280px;
   margin: auto;
   /* debug */
@@ -71,7 +71,7 @@ h2, h3 {
   width: 100px;
   height: 75px;
   margin: 20px auto auto;
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -218,6 +218,10 @@ nav i {
 }
 
 /* seconda section */
+#spiegazione {
+  margin-bottom: 20px;
+}
+
 #spiegazione-container {
   width: 100%;
   /* debug */
@@ -276,7 +280,7 @@ nav i {
   margin-right: 20px;
 }
 
-.spiegazione i {
+#spiegazione i {
   color: #ff7a59;
 }
 
@@ -309,4 +313,61 @@ nav i {
 
 #blocco-tre .small-img {
   background-image: url(../img/service.svg);
+}
+
+/* terza section */
+#tab {
+  width: 100%;
+  height: 500px;
+  /* debug */
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+#tab h2 {
+  text-transform: none;
+}
+
+#tab-prima-riga {
+  margin-top: 20px;
+}
+
+.tab-cell-container {
+  float: left;
+  width: calc(100% / 4);
+  height: 150px;
+  /* debug */
+  position: relative;
+}
+
+#tab-prima-riga .tab-cell-container {
+  border-bottom: solid 1px white;
+}
+
+.tab-cell-container {
+  border-right: solid 1px white;
+}
+
+#tab-prima-riga .tab-cell-container:last-child, #tab-seconda-riga .tab-cell-container:last-child {
+  border-right: none;
+}
+
+.tab-cell {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tab-icona img {
+  height: 25px;
+}
+
+.number {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
