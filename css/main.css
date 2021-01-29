@@ -58,6 +58,7 @@ h2, h3 {
 
 .p-normal {
   font-size: 12px;
+  line-height: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -69,6 +70,7 @@ h2, h3 {
 .small-img {
   width: 100px;
   height: 75px;
+  margin: 20px auto auto;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -79,6 +81,10 @@ h2, h3 {
 
 li {
   text-transform: capitalize;
+}
+
+hr {
+  margin-bottom: 20px;
 }
 
 /* HEADER */
@@ -217,8 +223,7 @@ nav i {
   /* debug */
 }
 
-#spiegazione-container > div {
-  float: left;
+#blocco-orizzontale, .verticale {
   /* debug */
   background-color: white;
   border-radius: 5px;
@@ -229,8 +234,9 @@ nav i {
 }
 
 /* blocco orizzontale */
-.blocco-orizzontale {
+#blocco-orizzontale {
   width: 100%;
+  margin-bottom: 40px;
   /* debug */
   padding-top: 30px;
   padding-bottom: 30px;
@@ -238,6 +244,7 @@ nav i {
 
 .orizzontale-sx {
   width: 30%;
+  height: 200px;
   float: left;
 }
 
@@ -245,12 +252,11 @@ nav i {
   text-align: left;
 }
 
-.blocco-orizzontale .small-img {
+#blocco-orizzontale .small-img {
   background-image: url(../img/book.svg);
-  margin: 20px auto auto;
 }
 
-#p-orizzonatale {
+#p-orizzontale {
   width: 75%;
 }
 
@@ -272,4 +278,35 @@ nav i {
 
 .spiegazione i {
   color: #ff7a59;
+}
+
+/* blocchi verticali */
+.verticale {
+  float: left;
+  width: 30%;
+  /* debug */
+  padding: 10px;
+  text-align: center;
+}
+
+#blocco-uno .small-img {
+  background-image: url(../img/marketing.svg);
+}
+
+#blocchi-verticali ul {
+  text-align: left;
+}
+
+#blocco-due {
+  margin-left: 5%;
+  margin-right: 5%;
+  /* debug */
+}
+
+#blocco-due .small-img {
+  background-image: url(../img/sales.svg);
+}
+
+#blocco-tre .small-img {
+  background-image: url(../img/service.svg);
 }
