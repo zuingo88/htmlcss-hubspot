@@ -37,10 +37,12 @@ a {
 }
 
 button {
+  padding: 5px;
   color: #fff;
   background-color: #ff7a59;
   border: 1px solid #ff7a59;
   border-radius: 3px;
+  text-transform: capitalize;
   cursor: pointer;
 }
 
@@ -80,6 +82,7 @@ h2, h3 {
 }
 
 li {
+  list-style-type: none;
   text-transform: capitalize;
 }
 
@@ -126,10 +129,6 @@ i {
 
 #log span {
   margin-left: 10px;
-}
-
-.top-top-bar button {
-  padding: 5px;
 }
 
 #login {
@@ -436,4 +435,49 @@ nav i {
   height: 260px;
   position: absolute;
   right: 0;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 30px;
+  width: 100%;
+  /* debug */
+  background-color: #2d3e50;
+  color: #cbd6e2;
+}
+
+#footer-container {
+  padding-top: 20px;
+}
+
+/* blocchi nav list */
+.blocco-lista {
+  float:left;
+  width: calc(100% / 4);
+}
+
+.blocco-lista li {
+  margin-bottom: 5px;
+}
+
+.blocco-lista li:first-child {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer button {
+  color: #2d3e50;
+  background-color: #cbd6e2;
+  border: none;
+}
+
+/* social nav bar */
+#social-nav-bar {
+  margin-top: 10px;
+}
+
+#social-nav-bar li {
+  display: inline-block;
+  margin-right: 10px;
 }
