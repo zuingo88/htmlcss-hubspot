@@ -200,7 +200,7 @@ nav i {
 
 /* MAIN */
 
-/* prima section */
+/* prima section presentazione */
 #presentazione-container {
   width: 60%;
   margin: 30px auto;
@@ -217,7 +217,7 @@ nav i {
   background-repeat: no-repeat;
 }
 
-/* seconda section */
+/* seconda section spiegazione */
 #spiegazione {
   margin-bottom: 20px;
 }
@@ -315,7 +315,7 @@ nav i {
   background-image: url(../img/service.svg);
 }
 
-/* terza section */
+/* terza section tab */
 #tab {
   width: 100%;
   height: 500px;
@@ -371,3 +371,55 @@ nav i {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* quarta section sponsor */
+
+#sponsor {
+  margin-top: 20px;
+}
+
+/* prima riga */
+#sponsor-prima-riga, #sponsor-secondariga {
+  width: 100%;
+  /* debug */
+}
+
+.sponsor-dx-container {
+  float: left;
+  width: 40%;
+  /* debug */
+  text-align: left;
+}
+
+#sponsor-prima-riga .sponsor-dx {
+  width: 40%;
+  margin: auto;
+}
+
+.sponsor-sx-container {
+  float: left;
+  width: 60%;
+  /* debug */
+}
+
+#loghi {
+  width: 85%;
+  margin-top: 20px;
+}
+
+.cella-logo {
+  float: left;
+  width: calc(100% / 4);
+  height: 50px;
+  position: relative;
+}
+
+.cella-logo > img {
+  width: 90%;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* seconda riga */
