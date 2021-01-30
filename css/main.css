@@ -481,3 +481,16 @@ footer button {
   display: inline-block;
   margin-right: 10px;
 }
+
+/* language list */
+#language-list {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #2d3e50;
+}
+
+#language-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
