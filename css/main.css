@@ -486,11 +486,33 @@ footer button {
 #language-list {
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
-  border-bottom: solid 1px #2d3e50;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cbd6e2;
 }
 
 #language-list li {
   display: inline-block;
   margin-right: 10px;
+}
+
+/* last line */
+#last-line {
+  margin-top: 30px;
+}
+
+#logo-copyright {
+  float: left;
+}
+
+#logo-copyright p {
+  margin-top: 0;
+}
+
+#privacy {
+  float: right;
+}
+
+#privacy span {
+  font-size: 12px;
+  margin-left: 10px;
 }
