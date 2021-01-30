@@ -373,7 +373,6 @@ nav i {
 }
 
 /* quarta section sponsor */
-
 #sponsor {
   margin-top: 20px;
 }
@@ -384,21 +383,25 @@ nav i {
   /* debug */
 }
 
-.sponsor-dx-container {
+.sponsor-sx-container {
   float: left;
   width: 40%;
   /* debug */
   text-align: left;
 }
 
-#sponsor-prima-riga .sponsor-dx {
+#sponsor-prima-riga .sponsor-sx {
   width: 40%;
-  margin: auto;
+  margin-left: 15%;
 }
 
-.sponsor-sx-container {
-  float: left;
+.sponsor-dx-container {
   width: 60%;
+  /* debug */
+}
+
+#sponsor-prima-riga .sponsor-dx-container {
+  float: left;
   /* debug */
 }
 
@@ -423,3 +426,14 @@ nav i {
 }
 
 /* seconda riga */
+#sponsor-seconda-riga .sponsor-dx-container {
+  float: right;
+  /* debug */
+  position: relative;
+}
+
+#sponsor-seconda-riga img {
+  height: 260px;
+  position: absolute;
+  right: 0;
+}
