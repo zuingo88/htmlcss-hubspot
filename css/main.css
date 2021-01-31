@@ -36,6 +36,11 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #007a8c;
+  text-decoration: underline;
+}
+
 button {
   padding: 5px;
   color: #fff;
@@ -50,6 +55,11 @@ button.big {
   padding: 10px 15px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+button:hover {
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 h2, h3 {
@@ -93,8 +103,16 @@ hr {
 /* HEADER */
 
 /* top-top-bar */
+#top-bar-fixed {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
 .top-top-bar {
   width: 100%;
+  height: 65px;
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: solid 1px #33475b;
@@ -115,8 +133,8 @@ i {
   border-right: solid 1px #33475b;
 }
 
-#lingua >span:last-child {
-  padding-left: 20px;
+#lingua > span:last-child {
+  margin-left: 20px;
 }
 
 #log {
@@ -138,6 +156,7 @@ i {
 
 /* nav bar */
 nav {
+  height: 85px;
   padding-top: 25px;
   padding-bottom: 25px;
   /* debug */
@@ -169,6 +188,7 @@ nav i {
 }
 
 #jumbotron {
+  margin-top: 150px;
   width: 100%;
   height: 550px;
   background-image: url(../img/jumbotron.png);
@@ -416,7 +436,7 @@ nav i {
   position: relative;
 }
 
-.cella-logo > img {
+.cella-logo img {
   width: 90%;
   position:absolute;
   top: 50%;
