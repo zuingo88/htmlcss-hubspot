@@ -276,10 +276,13 @@ li:hover > ul.dropdown {
 }
 
 /* about-dropdown */
+#about {
+  position: relative;
+}
+
 #about-dropdown {
   position: absolute;
-  top: 40px; left: 100%;
-  transform: translateX(-100%);
+  top: 40px; left: 0;
   width: auto;
   list-style-type: none;
   margin: 0;
@@ -306,7 +309,6 @@ li:hover > ul.dropdown {
 
 #about-dropdown li a {
   display: block;
-
 }
 
 
@@ -671,4 +673,78 @@ footer button {
 #privacy span {
   font-size: 12px;
   margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* BONUS MENU CHAT FIXED */
+#chat {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+#chat-button {
+  color: #cbd6e2;
+  background-color: #33475b;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  border: solid 1px #cbd6e2;
+}
+
+#chat-button:hover {
+  -moz-box-shadow: 0 0 5px #8D8D8D;
+  -webkit-box-shadow: 0 0 5px #8D8D8D;
+  box-shadow: 0 0 5px #8D8D8D;
+  background-color: #cbd6e2;
+  color: #33475b;
+  border: solid 1px #33475b;
+  transition: 0.5s;
+}
+
+#chat-box {
+  width: 300px;
+  height: 370px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  z-index: 999;
+
+  background-color: yellow;
+}
+
+.top-chat-box {
+  height: 70px;
+  padding: 10px;
+  background-color: #33475b;
+  color: #cbd6e2;
+  line-height: 100%;
+  vertical-align: middle;
+  border-radius: 25px 25px 0 0;
+}
+
+#bot {
+  height: 50px;
+}
+
+#bot > img {
+  height: 100%;
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+#hubbot-text {
+  display: inline-block;
+  height: 50px;
+  vertical-align: middle;
+  margin-left: 20px;
 }
