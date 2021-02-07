@@ -105,6 +105,8 @@ hr {
 /* top-top-bar */
 #top-bar-fixed {
   width: 100%;
+  min-width: 1025px;
+  max-width: 1280px;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -158,20 +160,37 @@ i {
 nav {
   height: 85px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
   /* debug */
-  position: relative;
+  /* position: relative; */
   background-color: white;
+  box-shadow: 0 2px 4px rgba(45,62,80,0.12);
 }
 
 #header-nav-bar {
+  position: relative;
+  top: 0;
+  right: 0;
+  /* transform: translateY(-50%); */
+  line-height: 100%;
+}
+
+#header-logo {
+  float: left;
+}
+
+#header-nav-bar {
+  float: right;
+}
+
+/* #header-nav-bar {
   position: absolute;
   top: 50%;
   right: 0;
   transform: translateY(-50%);
   margin-right: 10%;
   font-size: 12px;
-}
+} */
 
 nav li {
   display: inline-block;
